@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Actividad12</string>
+    <string name="Toggle_Scrollbar">Toggle Scrollbar</string>
+    <string name="Boton_1">Boton 1</string>
+    <string name="Boton_2">Boton 2</string>
+    <string name="Boton_3">Boton 3</string>
+    <string name="Boton_4">Boton 4</string>
+    <string name="Boton_5">Boton 5</string>
+    <string name="Boton_6">Boton 6</string>
+    <string name="Boton_7">Boton 7</string>
+</resources>

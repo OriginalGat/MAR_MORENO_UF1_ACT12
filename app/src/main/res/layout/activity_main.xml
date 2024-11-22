@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:layout_above="@+id/toggleScroll"
+        android:layout_marginBottom="258dp">
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_3" />
+
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_5" />
+
+            <Button
+                android:id="@+id/button6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_6" />
+
+            <Button
+                android:id="@+id/button7"
+                style="?android:attr/buttonBarNeutralButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Boton_7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ToggleButton
+        android:id="@+id/toggleScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Toggle_Scrollbar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
